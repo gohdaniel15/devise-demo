@@ -1,24 +1,28 @@
-# README
+# Devise Demo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is used for the purposes of practicing using Devise gem in
+Rails.
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+1. Clone the application
+```
+git clone https://github.com/gohdaniel15/devise-demo.git
+cd devise-demo
+```
 
-* System dependencies
+2. Install gems
+```
+bundle
+```
 
-* Configuration
+3. Set up the database
+```
+rake db:create db:migrate db:seed
+```
 
-* Database creation
+This will give you a user with the following attributes to log in
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+full_name: "User"
+email: "user@example.com"
+password: "123123123"
