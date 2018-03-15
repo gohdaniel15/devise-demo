@@ -26,3 +26,7 @@ This will give you a user with the following attributes to log in
 full_name: "User"
 email: "user@example.com"
 password: "123123123"
+
+# Guides
+
+1. [Facebook OAuth2](https://gist.github.com/gohdaniel15/141f857dbca0e75b3908424de9ee6978)
